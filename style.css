@@ -14,9 +14,7 @@ body {
     margin: 0 auto;
 }
 
-div {
-    margin-bottom: 50px;
-}
+
 
 h1,
 h2,
@@ -204,7 +202,7 @@ input {
 /* -------------- Donation Form Section Style End -------------- */
 
 
-/* -------------- Donation plan Section Style End -------------- */
+/* -------------- Donation plan Section Style start -------------- */
 .donation-plan-section {
     padding: 80px 0 40px;
 }
@@ -236,22 +234,62 @@ input {
 /* -------------- Donation plan Section Style End -------------- */
 
 
-.lives-donation {
-    display: flex;
-}
-
-.half-width {
-    width: 50%;
-    padding-left: 5%;
-}
-
-.half-width img {
-    width: 80%;
-}
-
-.contribute-batton {
+.block-info {
     background: #FF5959;
     color: #fff;
+    padding: 20px;
+    border-radius: 7px;
+    margin-bottom: 20px;
+}
+
+.block-info h3 {
+    color: #fff;
+}
+
+.block-info .small {
+    font-size: 14px;
+    color: #fff;
+}
+
+.block-info .amount {
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 20px;
+    color: #fff;
+}
+
+.block-info.style-2 {
+    background: #fff;
+    background: linear-gradient(270deg, rgba(255, 255, 255, 1) 0%, rgba(255, 238, 238, 1) 80%);
+    border: 2px solid #FF5959;
+}
+
+.block-info.style-2 h3 {
+    color: #121212;
+}
+
+.block-info.style-2 .small {
+    color: #121212;
+}
+
+.block-info.style-2 .amount {
+    color: #FF5959;
+}
+
+.donation-block-images img {
+    border-radius: 7px;
+    height: 300px;
+    object-fit: cover;
+    object-position: right;
+    margin-bottom: 13px;
+}
+
+.donation-spend {
+    margin-top: 30px;
+}
+
+.donation-spend img {
+    width: 60px;
 }
 
 /* -------------- Newsletter Section Style Start -------------- */
